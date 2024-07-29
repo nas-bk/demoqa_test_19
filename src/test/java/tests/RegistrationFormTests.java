@@ -1,3 +1,5 @@
+package tests;
+
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -33,7 +35,6 @@ public class RegistrationFormTests {
         $("#subjectsInput").setValue("Computer Science").pressEnter();
         $("label[for='hobbies-checkbox-3']").click();
 
-        $("#uploadPicture").scrollTo();
         $("#uploadPicture").uploadFromClasspath("testPicture.png");
 
         $("#currentAddress").setValue("Earth");
