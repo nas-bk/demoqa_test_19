@@ -53,6 +53,7 @@ public class RegistrationPage {
         step("Ввести имя", () -> {
         firstNameInput.setValue(value);
         });
+
         return this;
     }
 
