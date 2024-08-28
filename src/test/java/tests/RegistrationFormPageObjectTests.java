@@ -4,12 +4,11 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 
-
+@Tag("demoqa")
 public class RegistrationFormPageObjectTests extends TestBase {
 
     RegistrationPage registrationPage = new RegistrationPage();
 
-    @Tag("demoqa")
     @Test
     void fillFormTest() {
         registrationPage.openPage()
