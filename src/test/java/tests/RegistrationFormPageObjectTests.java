@@ -8,7 +8,6 @@ public class RegistrationFormPageObjectTests extends TestBase {
 
     RegistrationPage registrationPage = new RegistrationPage();
 
-    @Tag("demoqa")
     @Test
     void fillFormTest() {
         registrationPage.openPage()
