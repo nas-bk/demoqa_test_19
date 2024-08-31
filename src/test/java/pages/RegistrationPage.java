@@ -45,7 +45,7 @@ public class RegistrationPage {
     }
 
     public RegistrationPage setFirstName(String value) {
-        firstNameInput.setValue(value);;
+        firstNameInput.setValue(value);
 
         return this;
     }
@@ -94,6 +94,7 @@ public class RegistrationPage {
     }
 
     public RegistrationPage uploadPicture(String value) {
+        uploadPictureInput.scrollTo();
         uploadPictureInput.uploadFromClasspath(value);
 
         return this;
