@@ -57,9 +57,3 @@ task property_test(type: Test) {
         includeTags("property")
     }
 }
-
-task notification_test(type: Test) {
-    useJUnitPlatform{
-        includeTags("notification")
-    }
-}
